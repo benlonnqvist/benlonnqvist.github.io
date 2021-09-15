@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ben Lonnqvist"
+title                    : "Neural network modelling of vision and cognition"
 title_separator          : "-"
-subtitle                 : "Neural network modelling of vision and cognition" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ben Lonnqvist"
 description              : "Academic website"
 url                      : "https://benlonnqvist.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
