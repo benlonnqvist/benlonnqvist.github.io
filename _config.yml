@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "da
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Neural network modelling of vision and cognition"
+title                    : "Neural Network Modelling of Vision and Cognition"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ben Lonnqvist"
-description              : "Academic website"
+description              : 
 url                      : "https://benlonnqvist.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Ben Lonnqvist"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD student in computational neuroscience"
+  bio              : "PhD Student in Computational Neuroscience"
   location         : "EPFL, Switzerland"
   email            : "benhlonnqvist (at) gmail (dot) com"
   links:
