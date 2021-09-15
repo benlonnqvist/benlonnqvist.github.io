@@ -7,14 +7,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### another page
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+[a relative link](another-page.md)
 ```markdown
 Syntax highlighted code block
 
 # Header 1
 ## Header 2
 ### Header 3
-[a relative link](another-page.md)
+
 
 - Bulleted
 - List
