@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Download CV"
-    url: /BenLonnqvistCV2021.pdf
+    url: https://github.com/benlonnqvist/benlonnqvist.github.io/blob/main/_pages/BenLonnqvistCV2021.pdf
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
