@@ -17,8 +17,6 @@ minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "contrast", "da
 # Site Settings
 locale                   : "en-US"
 title                    : "Ben Lonnqvist - Deep Network Modelling of Vision and Cognition"
-header                   :
-  image: "/assets/images/header.png"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ben Lonnqvist"
@@ -100,6 +98,8 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+header:
+  image: "/assets/images/header.png"
 
 # Site Author
 author:
