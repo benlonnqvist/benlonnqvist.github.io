@@ -104,7 +104,7 @@ author:
   avatar           : "/assets/images/facial_400x400.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD Student in Neuroscience"
   location         : "EPFL, Switzerland"
-  email            : "benhlonnqvist@gmail.com"
+  email            : "benlonnqvist0@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
