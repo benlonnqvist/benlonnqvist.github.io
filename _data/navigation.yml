@@ -2,8 +2,8 @@
 main:
   - title: "Download CV"
     url: https://benlonnqvist.github.io/download/BenLonnqvistCV2021.pdf
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: https://benlonnqvist.github.io/pages/about
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
