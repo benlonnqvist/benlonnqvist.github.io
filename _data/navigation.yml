@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Download CV"
-    url: https://benlonnqvist.github.io/download/BenLonnqvistCV2021.pdf
   - title: "About"
     url: https://benlonnqvist.github.io/pages/about
+  - title: "Download CV"
+    url: https://benlonnqvist.github.io/download/BenLonnqvistCV2021.pdf
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
