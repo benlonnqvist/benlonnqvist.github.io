@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "About"
-    url: https://benlonnqvist.github.io/pages/about
+  #- title: "About"
+  #  url: https://benlonnqvist.github.io/pages/about
   - title: "Download CV"
     url: https://benlonnqvist.github.io/download/BenLonnqvistCV2023.pdf
   # - title: "Sample Posts"
