@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Ben Lonnqvist"
   avatar           : "/assets/images/facial_400x400.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD Student in Neuroscience"
+  bio              : "PhD Candidate in Neuroscience"
   location         : "EPFL, Switzerland"
   email            : "benhlonnqvist@gmail.com"
   links:
