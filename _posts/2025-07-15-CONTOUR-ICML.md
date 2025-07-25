@@ -12,4 +12,5 @@ Our [new paper on a large-scale comparison of humans and DNNs](https://openrevie
 ## Resources
 
 Link to paper: [click me!](https://openreview.net/forum?id=ftR9OuiUJA)
+
 Link to X post: [click me!](https://x.com/lonnqvistben/status/1914656558887186789)
