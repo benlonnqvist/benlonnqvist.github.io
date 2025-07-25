@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dirt" #"contrast" #"default", "air", "aqua", "contra
 locale                   : "en-US"
 title                    : "Ben Lonnqvist"
 title_separator          : "-"
-subtitle                 : "Deep Network Modelling of Vision and Cognition" # site tagline that appears below site title in masthead
+subtitle                 : "NeuroAI Research" # site tagline that appears below site title in masthead
 name                     : "Ben Lonnqvist"
 description              : 
 url                      : "https://benlonnqvist.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -101,12 +101,12 @@ analytics:
 # Site Author
 author:
   name             : "Ben Lonnqvist"
-  avatar           : "/assets/images/facial_400x400.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/facial_400x400.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD Candidate in Neuroscience"
   location         : "EPFL, Switzerland"
   email            : "benhlonnqvist@gmail.com"
   links:
-    - label: "Twitter"
+    - label: "X"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/lonnqvistben"
     - label: "Google Scholar"
