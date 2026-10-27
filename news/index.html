@@ -1,0 +1,23 @@
+---
+layout: default
+title: "News"
+description: "Papers, talks and press coverage."
+---
+<section class="wrap page-head">
+  <p class="eyebrow">news</p>
+  <h1>News</h1>
+  <p class="lede">Papers, talks and press.</p>
+</section>
+<section class="wrap block">
+  {% assign by_year = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+  {% for y in by_year %}
+  <div class="news-year">
+    <h2 class="section-label">{{ y.name }}</h2>
+    <ol class="news">
+      {% for post in y.items %}
+      <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b' }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% if post.categories.size > 0 %}<span class="tag">{{ post.categories | first }}</span>{% endif %}</li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endfor %}
+</section>

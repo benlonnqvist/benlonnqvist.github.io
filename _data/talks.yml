@@ -1,0 +1,58 @@
+# Conference presentations and invited talks. Newest first.
+# kind: oral | poster | invited
+
+- year: 2024
+  kind: poster
+  title: "Current DNNs are unable to integrate visual information across object discontinuities"
+  authors: ["Lonnqvist B", "Scialom E", "Merchant Z", "Herzog MH", "Schrimpf M"]
+  venue: "Cognitive Computational Neuroscience (CCN), Boston"
+  link: "/download/CCN2024_poster_BL.pdf"
+- year: 2024
+  kind: poster
+  title: "Psychophysics reveals a failure of grouping in current deep neural networks"
+  authors: ["Scialom E*", "Lonnqvist B*", "Merchant Z", "Schrimpf M", "Herzog MH"]
+  venue: "European Conference on Visual Perception (ECVP)"
+- year: 2024
+  kind: oral
+  title: "Perceptual grouping with latent noise"
+  authors: ["Lonnqvist B", "Wu Z", "Herzog MH"]
+  venue: "Vision Sciences Society (VSS), main meeting and MODVIS workshop"
+- year: 2024
+  kind: poster
+  title: "Categorical object properties outweigh local visual information in object recognition"
+  authors: ["Scialom E", "Merchant Z", "Ernst UA", "Rotermund D", "Lonnqvist B", "Herzog MH"]
+  venue: "Vision Sciences Society (VSS)"
+- year: 2024
+  kind: invited
+  title: "Invited talk"
+  venue: "Scene Grammar Lab, Goethe Universität Frankfurt"
+- year: 2023
+  kind: oral
+  title: "How object segmentation and perceptual grouping emerge in noisy variational autoencoders"
+  authors: ["Lonnqvist B", "Wu Z", "Herzog MH"]
+  venue: "Vision Sciences Society (VSS), MODVIS workshop (oral) and main meeting (poster)"
+  link: "/download/BenLonnqvistVSS2023_poster.pdf"
+- year: 2023
+  kind: invited
+  title: "Invited talk"
+  venue: "INCC, Université Paris Cité & CNRS Vision Group Symposium, Paris"
+- year: 2022
+  kind: oral
+  title: "Global information processing in feedforward deep networks"
+  authors: ["Lonnqvist B", "Bornet A", "Doerig A", "Herzog MH"]
+  venue: "Vision Sciences Society (VSS)"
+- year: 2021
+  kind: poster
+  title: "How crowding challenges (feedforward) convolutional neural networks"
+  authors: ["Lonnqvist B", "Doerig A", "Bornet A", "Francis G", "Schmittwilken L", "Herzog MH"]
+  venue: "Vision Sciences Society (VSS)"
+  link: "https://doi.org/10.1167/jov.21.9.2039"
+- year: 2019
+  kind: oral
+  title: "Object recognition in deep convolutional neural networks is fundamentally different to that in humans"
+  authors: ["Lonnqvist B", "Clarke ADF", "Chakravarthi R"]
+  venue: "Scottish Vision Group (SVG)"
+- year: 2019
+  kind: invited
+  title: "Invited talk"
+  venue: "Psychology & Computer Science Research Groups, University of Essex"

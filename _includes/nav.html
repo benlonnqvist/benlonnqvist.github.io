@@ -1,0 +1,14 @@
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="bar wrap">
+    <a class="brand" href="{{ '/' | relative_url }}">Ben Lonnqvist</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="{{ '/#research' | relative_url }}">research</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} aria-current="page"{% endif %}>publications</a></li>
+        <li><a href="{{ '/news/' | relative_url }}"{% if page.url contains '/news' %} aria-current="page"{% endif %}>news</a></li>
+        <li><a href="{{ site.cv_pdf | relative_url }}">cv&nbsp;<span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

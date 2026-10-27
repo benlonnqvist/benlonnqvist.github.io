@@ -1,0 +1,65 @@
+---
+layout: default
+title: "Publications"
+description: "Papers, preprints and talks by Ben Lonnqvist on human and machine vision, perceptual grouping and brain stimulation."
+body_class: pubs-page
+---
+{% assign pubs = site.data.publications %}
+<section class="wrap page-head">
+  <p class="eyebrow">publications</p>
+  <h1>Papers &amp; preprints</h1>
+  <p class="lede">Filter by type or topic, search titles and co-authors, and copy BibTeX for any paper. Full list also on <a href="{{ site.links[0].url }}">Google Scholar</a>.</p>
+</section>
+
+<section class="wrap" aria-label="Filters">
+  <div class="controls" id="controls">
+    <label class="search">
+      <span class="visually-hidden">Search publications</span>
+      <input type="search" id="q" placeholder="Search title, author, venue…" autocomplete="off">
+    </label>
+    <div class="chips" role="group" aria-label="Type">
+      <span class="chips-label">type</span>
+      <button type="button" class="chip" data-filter="type" data-value="all" aria-pressed="true">all</button>
+      <button type="button" class="chip" data-filter="type" data-value="conference" aria-pressed="false">conference</button>
+      <button type="button" class="chip" data-filter="type" data-value="journal" aria-pressed="false">journal</button>
+      <button type="button" class="chip" data-filter="type" data-value="preprint" aria-pressed="false">preprint</button>
+      <button type="button" class="chip" data-filter="type" data-value="thesis" aria-pressed="false">thesis</button>
+    </div>
+    <div class="chips" role="group" aria-label="Topic">
+      <span class="chips-label">topic</span>
+      <button type="button" class="chip" data-filter="topic" data-value="all" aria-pressed="true">all</button>
+      {% for r in site.data.research %}<button type="button" class="chip" data-filter="topic" data-value="{{ r.topic }}" aria-pressed="false">{{ r.label }}</button>{% endfor %}
+    </div>
+    <div class="chips" role="group" aria-label="Options">
+      <span class="chips-label">view</span>
+      <button type="button" class="chip" id="first-only" aria-pressed="false">first-author only</button>
+      <button type="button" class="chip" id="view-toggle" aria-pressed="false">compact</button>
+    </div>
+  </div>
+  <p class="count" id="count" aria-live="polite">{{ pubs.size }} publications</p>
+</section>
+
+<section class="wrap">
+  <div class="pubs list timeline" id="pub-list">
+    {% for p in pubs %}{% include pub.html pub=p %}{% endfor %}
+  </div>
+  <p class="empty" id="empty" hidden>No publications match. <button type="button" class="linkish" id="reset">Clear filters</button></p>
+</section>
+
+<section class="wrap block" aria-labelledby="talks-title">
+  <h2 id="talks-title" class="section-label">Talks &amp; presentations</h2>
+  <ol class="talks">
+    {% for t in site.data.talks %}
+    <li>
+      <span class="t-year">{{ t.year }}</span>
+      <span class="tag k-{{ t.kind }}">{{ t.kind }}</span>
+      <div>
+        <p class="t-title">{% if t.link %}<a href="{{ t.link | relative_url }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</p>
+        <p class="muted small">{% if t.authors %}{% include authors.html authors=t.authors %} · {% endif %}{{ t.venue }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<script src="{{ '/assets/js/pubs.js' | relative_url }}" defer></script>

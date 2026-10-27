@@ -1,0 +1,227 @@
+# Publications. Newest first. To add a paper, copy an entry and edit it.
+#
+# type:   conference | journal | preprint | thesis
+# topics: benchmarking (NeuroAI benchmarking), grouping (grouping & segmentation),
+#         neurotech (neurotechnology & prosthetics)
+# authors: write names as "Lonnqvist B"; your own name is highlighted automatically.
+#          Use "*" after a name for equal contribution.
+
+- id: mehrer2026microstim
+  title: "Model-Guided Microstimulation Steers Primate Visual Behavior"
+  authors: ["Mehrer J", "Lonnqvist B", "Mitola A", "Papale P", "Schrimpf M"]
+  venue: "International Conference on Learning Representations"
+  venue_short: "ICLR"
+  year: 2026
+  type: conference
+  topics: [neurotech]
+  featured: true
+  summary: >-
+    A model that predicts how image input and cortical stimulation jointly drive behavior is used to choose
+    stimulation sites in macaque visual cortex. Model-guided microstimulation steered the monkeys' object
+    choices, a proof of principle for prostheses that target higher-level visual cortex.
+  links:
+    paper: "https://openreview.net/pdf/7296590e8a14124c7fbed081f20b1d8839a4c8e3.pdf"
+    arxiv: "https://arxiv.org/abs/2510.03684"
+  bibtex: |-
+    @inproceedings{mehrer2026microstimulation,
+      title     = {Model-Guided Microstimulation Steers Primate Visual Behavior},
+      author    = {Mehrer, Johannes and Lonnqvist, Ben and Mitola, Anna and Papale, Paolo and Schrimpf, Martin},
+      booktitle = {International Conference on Learning Representations (ICLR)},
+      year      = {2026}
+    }
+
+- id: scialom2026prosthetic
+  title: "Diagnostic features predicted by deep learning improve human object recognition in simulated prosthetic vision"
+  authors: ["Scialom E", "Lonnqvist B", "Bornet A", "Herzog MH"]
+  venue: "Journal of Neural Engineering"
+  venue_short: "J. Neural Eng."
+  year: 2026
+  type: journal
+  topics: [neurotech, benchmarking]
+  featured: false
+  summary: >-
+    Deep networks predict which image features are diagnostic for recognising an object. Rendering those
+    features in simulated prosthetic vision improves how well people recognise objects.
+  links:
+    paper: "https://doi.org/10.1088/1741-2552/ae9227"
+  bibtex: |-
+    @article{scialom2026diagnostic,
+      title   = {Diagnostic features predicted by deep learning improve human object recognition in simulated prosthetic vision},
+      author  = {Scialom, Elsa and Lonnqvist, Ben and Bornet, Alban and Herzog, Michael H.},
+      journal = {Journal of Neural Engineering},
+      year    = {2026},
+      doi     = {10.1088/1741-2552/ae9227}
+    }
+
+- id: lonnqvist2025thesis
+  title: "Differences in Visual Perception in Humans and Deep Neural Networks"
+  authors: ["Lonnqvist B"]
+  venue: "PhD thesis, EPFL. Advised by M. H. Herzog and M. Schrimpf"
+  venue_short: "PhD Thesis"
+  year: 2025
+  type: thesis
+  topics: [benchmarking, grouping]
+  featured: false
+  summary: >-
+    Doctoral thesis on where and why deep neural networks see differently from humans, covering crowding,
+    perceptual grouping and contour integration.
+  links:
+    paper: "https://memento.epfl.ch/event/differences-in-visual-perception-in-humans-and-dee"
+  bibtex: |-
+    @phdthesis{lonnqvist2025thesis,
+      title  = {Differences in Visual Perception in Humans and Deep Neural Networks},
+      author = {Lonnqvist, Ben},
+      school = {{\'E}cole Polytechnique F{\'e}d{\'e}rale de Lausanne (EPFL)},
+      year   = {2025}
+    }
+
+- id: lonnqvist2025contour
+  title: "Contour Integration Underlies Human-Like Vision"
+  authors: ["Lonnqvist B", "Scialom E", "Gokce A", "Merchant Z", "Herzog MH", "Schrimpf M"]
+  venue: "International Conference on Machine Learning (PMLR 267)"
+  venue_short: "ICML"
+  year: 2025
+  type: conference
+  topics: [benchmarking, grouping]
+  featured: true
+  image: "/assets/images/contour_graph_abstract.png"
+  summary: >-
+    Humans and more than 1,000 models were tested on objects whose contours are progressively fragmented.
+    Humans stay accurate with very few visible contours, while most models fall to near chance. Only models
+    trained on around 5 billion examples approach human performance, and the human-like bias for
+    directional fragments grows with training data.
+  links:
+    paper: "https://proceedings.mlr.press/v267/lonnqvist25a.html"
+    arxiv: "https://arxiv.org/abs/2504.05253"
+    poster: "/download/ICML2025_poster_BL.pdf"
+    press: "https://actu.epfl.ch/news/ai-can-t-see-as-well-as-humans-and-how-to-fix-it/"
+  bibtex: |-
+    @inproceedings{lonnqvist2025contour,
+      title     = {Contour Integration Underlies Human-Like Vision},
+      author    = {Lonnqvist, Ben and Scialom, Elsa and Gokce, Abdulkadir and Merchant, Zehra and Herzog, Michael H. and Schrimpf, Martin},
+      booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {267},
+      pages     = {40290--40311},
+      year      = {2025}
+    }
+
+- id: lonnqvist2024latent
+  title: "Latent Noise Segmentation: How Neural Noise Leads to the Emergence of Segmentation and Grouping"
+  authors: ["Lonnqvist B*", "Wu Z*", "Herzog MH"]
+  venue: "International Conference on Machine Learning (PMLR 235)"
+  venue_short: "ICML"
+  year: 2024
+  type: conference
+  topics: [grouping]
+  featured: true
+  summary: >-
+    Neural noise in a variational autoencoder's latent space is enough to segment images without supervision.
+    The resulting model reproduces many hallmark effects of human perceptual grouping.
+  links:
+    paper: "https://proceedings.mlr.press/v235/lonnqvist24a.html"
+    arxiv: "https://arxiv.org/abs/2309.16515"
+    press: "https://www.tekniikkatalous.fi/uutiset/a/ce8be5c9-349d-44b0-8462-242bc08ec275"
+  bibtex: |-
+    @inproceedings{lonnqvist2024latent,
+      title     = {Latent Noise Segmentation: How Neural Noise Leads to the Emergence of Segmentation and Grouping},
+      author    = {Lonnqvist, Ben and Wu, Zhengqing and Herzog, Michael H.},
+      booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+      series    = {Proceedings of Machine Learning Research},
+      volume    = {235},
+      year      = {2024}
+    }
+
+- id: lonnqvist2022comment
+  title: "A comment on Guo et al. [arXiv:2206.11228]"
+  authors: ["Lonnqvist B", "Machiraju H", "Herzog MH"]
+  venue: "arXiv preprint"
+  venue_short: "arXiv"
+  year: 2022
+  type: preprint
+  topics: [benchmarking]
+  featured: false
+  summary: >-
+    A commentary on Guo et al. (2022) and its benchmarking of the adversarial robustness of artificial and
+    biological neural representations.
+  links:
+    arxiv: "https://arxiv.org/abs/2208.01456"
+  bibtex: |-
+    @article{lonnqvist2022comment,
+      title   = {A comment on {G}uo et al. [arXiv:2206.11228]},
+      author  = {Lonnqvist, Ben and Machiraju, Harshitha and Herzog, Michael H.},
+      journal = {arXiv preprint arXiv:2208.01456},
+      year    = {2022}
+    }
+
+- id: lonnqvist2021comparative
+  title: "A comparative biology approach to DNN modeling of vision: A focus on differences, not similarities"
+  authors: ["Lonnqvist B", "Bornet A", "Doerig A", "Herzog MH"]
+  venue: "Journal of Vision, 21(10):17"
+  venue_short: "JOV"
+  year: 2021
+  type: journal
+  topics: [benchmarking]
+  featured: false
+  summary: >-
+    Argues that deep networks are most informative as models of vision when we study where they differ from
+    humans, and sets out a comparative-biology framework for doing so.
+  links:
+    paper: "https://doi.org/10.1167/jov.21.10.17"
+  bibtex: |-
+    @article{lonnqvist2021comparative,
+      title   = {A comparative biology approach to {DNN} modeling of vision: A focus on differences, not similarities},
+      author  = {Lonnqvist, Ben and Bornet, Alban and Doerig, Adrien and Herzog, Michael H.},
+      journal = {Journal of Vision},
+      volume  = {21},
+      number  = {10},
+      pages   = {17},
+      year    = {2021},
+      doi     = {10.1167/jov.21.10.17}
+    }
+
+- id: lonnqvist2020crowding
+  title: "Crowding in humans is unlike that in convolutional neural networks"
+  authors: ["Lonnqvist B", "Clarke ADF", "Chakravarthi R"]
+  venue: "Neural Networks"
+  venue_short: "Neural Netw."
+  year: 2020
+  type: journal
+  topics: [benchmarking]
+  featured: false
+  summary: >-
+    Visual crowding, where clutter impairs recognition in peripheral vision, behaves differently in
+    convolutional neural networks than in human observers.
+  links:
+    paper: "https://doi.org/10.1016/j.neunet.2020.03.021"
+  bibtex: |-
+    @article{lonnqvist2020crowding,
+      title   = {Crowding in humans is unlike that in convolutional neural networks},
+      author  = {Lonnqvist, Ben and Clarke, Alasdair D. F. and Chakravarthi, Ramakrishna},
+      journal = {Neural Networks},
+      year    = {2020},
+      doi     = {10.1016/j.neunet.2020.03.021}
+    }
+
+- id: lonnqvist2020search
+  title: "Modeling individual variation in visual search with reinforcement learning"
+  authors: ["Lonnqvist B", "Elsner M", "Hunt AR", "Clarke ADF"]
+  venue: "PsyArXiv preprint"
+  venue_short: "PsyArXiv"
+  year: 2020
+  type: preprint
+  topics: [benchmarking]
+  featured: false
+  summary: >-
+    Reinforcement-learning agents fitted to individual observers capture differences in how people search a
+    visual scene.
+  links:
+    paper: "https://doi.org/10.31234/osf.io/suj28"
+  bibtex: |-
+    @article{lonnqvist2020modeling,
+      title   = {Modeling individual variation in visual search with reinforcement learning},
+      author  = {Lonnqvist, Ben and Elsner, Micha and Hunt, Amelia R. and Clarke, Alasdair D. F.},
+      journal = {PsyArXiv},
+      year    = {2020},
+      doi     = {10.31234/osf.io/suj28}
+    }

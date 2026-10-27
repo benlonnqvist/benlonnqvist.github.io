@@ -1,0 +1,20 @@
+# Research themes shown on the home page. `topic` matches the topics used in publications.yml.
+
+- topic: benchmarking
+  label: "NeuroAI benchmarking"
+  stage: "humans vs. AI"
+  text: >-
+    Large-scale tests of AI models against human behaviour and the brain, to find exactly where today's
+    models stop seeing like we do. Over a thousand models compared.
+- topic: grouping
+  label: "Grouping & segmentation"
+  stage: "Visual Grouping"
+  text: >-
+    How the visual system binds fragments into objects. Latent Noise Segmentation shows that neural noise
+    alone can drive unsupervised segmentation.
+- topic: neurotech
+  label: "Neurotechnology & prosthetics"
+  stage: "model → stimulation"
+  text: >-
+    Using brain models to decide where and how to stimulate, from model-guided microstimulation in primates
+    to better prosthetic vision.
